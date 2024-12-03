@@ -16,3 +16,8 @@ out = cv2.VideoWriter('output_video_name.avi', fourcc, 20.0, (width, height))
 ```
 3. The input files are curved_lane, curved_lane1 and straight_lane that are used by us.
 4. The output files are curved_lane_output, curved_lane1_output and straight_lane_output.
+
+## References:
+1. Edge Detection - https://blog.roboflow.com/edge-detection/#:~:text=Edge%20detection%20works%20by%20looking,etc.%2C%20as%20detailed%20above
+2. Perspective Transformation - https://www.geeksforgeeks.org/perspective-transformation-python-opencv/
+3. Histogram Equalization Clahe - https://www.geeksforgeeks.org/clahe-histogram-eqalization-opencv/
